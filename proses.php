@@ -6,7 +6,7 @@ $pass = $_GET["pwd"];
 echo "Username = ".$username." <br>";
 echo "Pawod = ".$pass." <br>";
 
-$data = array("admin"=>"12345", "aldi"=>"babi1234");
+$data = array("admin"=>"12345", "aldi"=>"1234");
 $ada = false;
 foreach($data as $u => $p){
     if($u == $username && $p == $pass){
